@@ -1,0 +1,34 @@
+<form>
+  <div class="form-row">
+    <div class="col-10">
+        <input type="text" [(ngModel)]="cName"  name="cName" class="form-control" placeholder="category here...">
+    </div>
+    <div class="col-2">
+        <button (click)="addCategory()" *ngIf="!editStatus" type="button" class="btn btn-block btn-dark">Add</button>
+        <button (click)="saveEditCategory()" *ngIf="editStatus" type="button" class="btn btn-block btn-dark">Save Edit</button>
+    </div>
+  </div>
+</form>
+<hr>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let category of categories; let i=index">
+            <td>{{i+1}}</td>
+            <td>{{category.name}}</td>
+            <td>
+                <button class="btn btn-dark" (click)="editDiscount(category)">Edit</button>
+            </td>
+            <td>
+                <button [disabled]="editStatus" class="btn btn-dark" (click)="deleteCategory(category)">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+  </table>

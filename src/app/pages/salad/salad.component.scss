@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+}
+.mystyle{
+    width: 33.3%;
+    text-align: center;
+    margin: 20px 0 ;
+}
+.myLi{
+    min-height: 80px;
+}
+.priceValue{
+    font-size: 28px;
+    line-height: 36px;
+    color: #c80000;
+    margin-right: 4px;
+}
+.price{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.font{
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+}

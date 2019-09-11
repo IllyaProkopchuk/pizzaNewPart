@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="card mystyle" *ngFor="let one of salad">
+    <div>
+      <img [src]="one.image" class="card-img-top" alt="...">
+      <div class="card-body size">
+        <h5 class="card-title font">{{one.name}}</h5>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <span class="priceValue">{{one.price}}</span>
+          <i class="price">грн</i>
+        </li>
+        <li class="myLi list-group-item">{{one.description}}</li>
+      </ul>
+    </div>
+  </div>
+</div>

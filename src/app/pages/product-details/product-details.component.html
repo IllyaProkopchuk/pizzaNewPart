@@ -1,0 +1,53 @@
+<!-- <div class="container">
+        <div class="card mystyle">
+          <div>
+            <img [src]="view?.image" class="card-img-top" alt="...">
+            <div class="card-body size">
+              <h5 class="card-title font">{{view?.name}}</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <span class="priceValue">{{view?.price}}</span>
+                <i class="price">грн</i>
+              </li>
+              <li class="myLi list-group-item">{{view?.description}}</li>
+              <a (click)="goBack()" class="btn btn-dark" style="color: white">Back</a>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+       -->
+
+<div class="container">
+  <div class="relative">
+    <img class="img" [src]="view?.image">
+  </div>
+  <div class="infoArea">
+    <p class="name">{{view?.name}}</p>
+    <p class="description">{{view?.description}}</p>
+    <div class="wrapper">
+      <div class="productSize" style="margin-right: 60px">
+        <div class="imgWrapper">
+          <img src="https://www.lapiec-pizza.com.ua/wp-content/themes/lapiec/fonts/svg-icons/size.svg"
+            style="width: 16px; height: 16px;" alt="">
+        </div>
+        <p style="margin-right: 4px;">Розмір:</p>
+        <span style="font-weight: 600">30 см</span>
+      </div>
+      <div class="productSize">
+        <div class="imgWrapper">
+          <img src="https://www.lapiec-pizza.com.ua/wp-content/themes/lapiec/fonts/svg-icons/weight.svg" alt=""
+            style="width: 16px; height: 16px;">
+        </div>
+        <p style="margin-right: 4px;">Вага:</p>
+        <span style="font-weight: 600">460 грам</span>
+      </div>
+    </div>
+    <div class="price">
+        <p style="font-size: 30px">Ціна:</p>
+        <p class="count">{{view?.price}} грн</p>
+    </div>
+    <div (click)="goBack()" class="button">Back</div>
+  </div>
+</div>

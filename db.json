@@ -1,0 +1,200 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "discounts": [
+    {
+      "id": 1,
+      "title": "Free Pizza",
+      "text": "Lorem lorem lorem loremlorem "
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "pizza"
+    },
+    {
+      "id": 2,
+      "name": "salad"
+    },
+    {
+      "id": 3,
+      "name": "drinks"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "pizza",
+      "name": "Піца La П’єц",
+      "description": "соус томатний, шинка, баварські ковбаски, сир моцарела, ковбаса салямі, прошуто.",
+      "price": 120,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fkgawsg7gxv?alt=media&token=14161939-3073-45fa-8c81-6e3f861eb5b8"
+    },
+    {
+      "id": 2,
+      "category": "pizza",
+      "name": "Капрічоза",
+      "description": "соус томатний, сир моцарела, шинка, свіжі гриби.",
+      "price": 141,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fou014whpra?alt=media&token=6793baee-7195-4215-bd43-fc37a652e6fd"
+    },
+    {
+      "id": 3,
+      "category": "pizza",
+      "name": "Цезаріо",
+      "description": "соус вершковий, помідори, хрусткий салат, пармезан, куряче м'ясо, сир моцарела, перепелині яйця.",
+      "price": 182,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2F7y6gd0eg602?alt=media&token=ac2b8269-0603-4b73-b843-4a275bffcaa1"
+    },
+    {
+      "id": 4,
+      "category": "pizza",
+      "name": "Кватро формаджі",
+      "description": "соус вершковий, пармезан, сир моцарела, сир рікотта, сир дор блю,  волоський горіх, груша.",
+      "price": 172,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Foqfdu6ay74?alt=media&token=28f0bebb-c8da-4d52-9f58-09e9457e27ad"
+    },
+    {
+      "id": 5,
+      "category": "pizza",
+      "name": "Салямі",
+      "description": "соус томатний, сир моцарела, ковбаса салямі",
+      "price": 131,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fx24orurnqw?alt=media&token=ca1735c6-9f52-45e4-96a2-c13c17be7d86"
+    },
+    {
+      "id": 6,
+      "category": "pizza",
+      "name": "Маргарита",
+      "description": "соус томатний, сир моцарела, помідори.",
+      "price": 99,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fk2xk1u690fk?alt=media&token=b5740f79-1605-4041-96c3-aad1a30eae3e"
+    },
+    {
+      "id": 7,
+      "category": "salad",
+      "name": "Салат Цезар зі смаженим курячим філе",
+      "description": "Салат айсберг, помідори, куряче м`ясо, сир пармезан, перепелині яйця, духмяні сухарики та фірмова заправка. 250 г",
+      "price": 125,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fvk1qnk9kx7r?alt=media&token=87854205-1c21-4459-afa6-c9584e837aab"
+    },
+    {
+      "id": 8,
+      "category": "salad",
+      "name": "Інсалата ді Сальмоне",
+      "description": "рукола, помідор чері, огірок, салат айсберг, соус айолі, пармезан, лосось, перепелине яйце, кунжут. 285 г",
+      "price": 134,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2F360ynip0o48?alt=media&token=0d4c5e33-3fae-4a27-ae20-9cbe011c3393"
+    },
+    {
+      "id": 9,
+      "category": "salad",
+      "name": "Прімавера",
+      "description": "сир моцарела, салат айсберг, помідор чері, огірок, болгарський перець, оливкова олія, фреш лимонний, орегано. 255 г",
+      "price": 99,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2F04orj9dl05gv?alt=media&token=777f03f9-1ef4-4ea7-9106-cc1613d43d60"
+    },
+    {
+      "id": 10,
+      "category": "salad",
+      "name": "Салат Цезар з телятиною",
+      "description": "Салат айсберг, помідори, телятина , сир пармезан, перепелині яйця, духмяні сухарики та фірмова заправка. 250 г",
+      "price": 163,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fus1d3ci6p1?alt=media&token=24bd40cd-7251-41c8-b13b-6535deed53b2"
+    },
+    {
+      "id": 11,
+      "category": "salad",
+      "name": "Інсалата ді Фета",
+      "description": "Салат айсберг, свіжі овочі, сир фета, кунжут, оливки, бальзамічна заправка. 250 г",
+      "price": 112,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fe7frdxed3nc?alt=media&token=14b7c35c-85fc-45e7-bcbb-9b10e415d05b"
+    },
+    {
+      "id": 12,
+      "category": "salad",
+      "name": "Інсалата ді Прошуто",
+      "description": "Салат айcберг, прошуто, сир пармезан, помідори, рукола та бальзамічна заправка. 135 г",
+      "price": 115,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fp2vuq56u25?alt=media&token=007ee7e6-2709-4893-851e-bfe61bfd7a37"
+    },
+    {
+      "id": 13,
+      "category": "drinks",
+      "name": "Вода BonAqua — 0,5 л",
+      "price": 20,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fj9gz53xfsw?alt=media&token=0d41646f-a3a2-4e73-8d54-ce2902bddfc6"
+    },
+    {
+      "id": 14,
+      "category": "drinks",
+      "name": "Вода BonAqua — 1 л",
+      "description": "",
+      "price": 29,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fcbbjq546ny?alt=media&token=ca7f93f0-73bb-4d9b-a1cb-52bfdd1c02b5"
+    },
+    {
+      "id": 15,
+      "category": "drinks",
+      "name": "Coca Cola — 0,5 л",
+      "description": "",
+      "price": 24,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fj87pgb6fjtg?alt=media&token=86d91cc3-105e-4b23-9ab1-03800146d3de"
+    },
+    {
+      "id": 16,
+      "category": "drinks",
+      "name": "Coca Cola — 1л",
+      "description": "",
+      "price": 33,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fyu510bqbcre?alt=media&token=b3fbec78-e968-4e6d-9e5b-642d5e52a916"
+    },
+    {
+      "id": 17,
+      "category": "drinks",
+      "name": "Сік томатний 1 л, ТМ “RICH”",
+      "description": "",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fn9zi0fehskf?alt=media&token=dd8f9e8e-746f-4ce9-97e5-9e407e6b57f0"
+    },
+    {
+      "id": 18,
+      "category": "drinks",
+      "name": "Сік яблучний 1 л, ТМ “RICH”",
+      "description": "",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2F49g1gua62b2?alt=media&token=d5568d55-72ce-4d1a-a399-78548ef4803e"
+    },
+    {
+      "id": 19,
+      "category": "drinks",
+      "name": "Сік апельсиновий 1 л, ТМ “RICH”",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2F0j1oatcmegji?alt=media&token=6a00f5fc-511b-4893-995c-5c76a787d5ad"
+    },
+    {
+      "id": 20,
+      "category": "drinks",
+      "name": "Сік вишневий 1 л, ТМ “RICH”",
+      "description": "",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/pizza-e88e6.appspot.com/o/images%2Fite4urmq3o?alt=media&token=c913ccb2-bd9f-433f-88e2-887e4aa19e50"
+    }
+  ]
+}
